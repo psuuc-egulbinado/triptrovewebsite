@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip Trove</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+<link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+<style>
+
+    .learn-more{
+        background-color: rgb(233, 93, 0);
+        color: white;
+    }
+    .learn-more:hover{
+        background-color: none;
+        border: 1px solid white;
+    }
+    .book{
+        background-color: rgb(233, 93, 0);
+        color: white;
+    }
+    .book:hover{
+        background-color: none;
+        border: 1px solid rgb(233, 93, 0);
+    }
+
+    .lm{
+        background-color: rgb(233, 93, 0);
+        color: white;
+        border: 1px solid rgb(233, 93, 0);
+    }
+
+    .lm:hover{
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+    }
+
+    .top{
+      margin-right: 15px;
+ 
+    }
+    .top:hover{
+      border-bottom: 1px solid rgb(233, 93, 0);
+    }
+</style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container">
+    <nav class="navbar bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="img/logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+      Trip Trove
+    </a>
+  </div>
+</nav>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav ms-auto my-2 my-lg-0 style="--bs-scroll-height: 100px;">
+        <li class="nav-item">
+          <a class="nav-link active top" aria-current="page" href="#">Home</a>
+        </li>
+       <li class="nav-item">
+          <a class="nav-link active top" aria-current="page" href="#">Services</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active top" aria-current="page" href="#">About us</a>
+          </li>
+        <li class="nav-item">
+            <a class="nav-link active top" aria-current="page" href="#">Contact</a>
+          </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <button class="btn book" type="submit">Book</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<!--Hero-->
+<section class="bg-dark text-light hero-sec">
+<div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="img/hero.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold lh-1 mb-3">Unleash Your Wanderlust with Trip Trove</h1>
+        <p class="lead">Welcome to Trip Trove, your ultimate online destination for discovering, planning, and embarking on unforgettable journeys around the world. With Trip Trove, we aim to ignite your wanderlust, inspire your travel dreams, and provide you with the tools and resources to make them a reality.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button type="button" class="btn btn-lg px-4 me-md-2 learn-more">Learn More</button>
+       
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--Services-->
+
+<div class="container px-4 py-5" id="hanging-icons">
+    <h2 class="pb-2 border-bottom">Services</h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="col d-flex align-items-start">
+        <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex p-3 align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-airplane-fill" viewBox="0 0 16 16">
+                <path d="M6.428 1.151C6.708.591 7.213 0 8 0s1.292.592 1.572 1.151C9.861 1.73 10 2.431 10 3v3.691l5.17 2.585a1.5 1.5 0 0 1 .83 1.342V12a.5.5 0 0 1-.582.493l-5.507-.918-.375 2.253 1.318 1.318A.5.5 0 0 1 10.5 16h-5a.5.5 0 0 1-.354-.854l1.319-1.318-.376-2.253-5.507.918A.5.5 0 0 1 0 12v-1.382a1.5 1.5 0 0 1 .83-1.342L6 6.691V3c0-.568.14-1.271.428-1.849Z"/>
+              </svg>
+         
+        </div>
+        <div>
+          <h3 class="fs-2">Flight Booking</h3>
+          <p>Flight booking is the process of reserving and purchasing airline tickets for air travel. It involves searching for available flights, comparing prices and schedules, selecting preferred options, and making a reservation.</p>
+          <a href="#" class="btn btn-primary lm">
+            Learn more
+          </a>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 p-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-building-fill-check" viewBox="0 0 16 16">
+                <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm1.679-4.493-1.335 2.226a.75.75 0 0 1-1.174.144l-.774-.773a.5.5 0 0 1 .708-.708l.547.548 1.17-1.951a.5.5 0 1 1 .858.514Z"/>
+                <path d="M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7.256A4.493 4.493 0 0 0 12.5 8a4.493 4.493 0 0 0-3.59 1.787A.498.498 0 0 0 9 9.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .39-.187A4.476 4.476 0 0 0 8.027 12H6.5a.5.5 0 0 0-.5.5V16H3a1 1 0 0 1-1-1V1Zm2 1.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5Zm3 0v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5Zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1ZM4 5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5ZM7.5 5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm2.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5ZM4.5 8a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Z"/>
+              </svg>
+
+        </div>
+        <div>
+          <h3 class="fs-2">Hotel Reservation</h3>
+          <p>Hotel reservation involves the process of booking and securing accommodations at a hotel or other lodging establishments for a specific period of time.</p>
+          <a href="#" class="btn btn-primary lm">
+            Learn more
+          </a>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 p-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-map-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.598-.49L10.5.99 5.598.01a.5.5 0 0 0-.196 0l-5 1A.5.5 0 0 0 0 1.5v14a.5.5 0 0 0 .598.49l4.902-.98 4.902.98a.502.502 0 0 0 .196 0l5-1A.5.5 0 0 0 16 14.5V.5zM5 14.09V1.11l.5-.1.5.1v12.98l-.402-.08a.498.498 0 0 0-.196 0L5 14.09zm5 .8V1.91l.402.08a.5.5 0 0 0 .196 0L11 1.91v12.98l-.5.1-.5-.1z"/>
+              </svg>
+        </div>
+        <div>
+          <h3 class="fs-2">Destination Guides</h3>
+          <p>They aim to help travelers plan and make informed decisions by offering detailed descriptions, tips, recommendations, and practical advice about various aspects of a destination.</p>
+          <a href="#" class="btn btn-primary lm">
+            Learn more
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--Featured Places-->
+
+  <div class="container px-4 py-5" id="custom-cards">
+    <h2 class="pb-2 border-bottom">Featured Places</h2>
+
+    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.4)), url(img/giza.jpg);">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Great Pyramid of Giza</h3>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="me-auto">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                </svg>
+              </li>
+              <li class="d-flex align-items-center me-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                  <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                </svg>
+                <small>Egypt</small>
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                <small>3d</small>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image:linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.4)), url(https://images.unsplash.com/photo-1586495985096-787fb4a54ac0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80);">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Meeru <br> Island</h3>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="me-auto">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                </svg>
+              </li>
+              <li class="d-flex align-items-center me-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                  <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                </svg>
+                <small>Maldives</small>
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                <small>4d</small>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.4)),url(https://images.unsplash.com/photo-1564425230164-1e63b4922d3f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGFsYXdhbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">El Nido, Palawan</h3>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="me-auto">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                </svg>
+              </li>
+              <li class="d-flex align-items-center me-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                  <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                </svg>
+                <small>Philippines</small>
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                <small>5d</small>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--About us-->
+<section>
+    <div class="container">
+    <div class="accordion" id="accordionPanelsStayOpenExample">
+        <h2 class="pb-2 border-bottom mb-5">About Us</h2>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+              Trip Trove Company
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+            <div class="accordion-body">
+              Welcome to Trip Trove, your ultimate travel companion and a gateway to incredible adventures around the world. At Trip Trove, we believe that travel is not just about visiting new places; it's about embarking on transformative journeys that leave an indelible mark on your soul. <br> <br>
+
+As avid travelers ourselves, we understand the thrill of exploring the unknown, the joy of immersing oneself in different cultures, and the profound connections forged through shared experiences. With this passion in mind, we created Trip Trove to inspire, guide, and connect fellow travelers on their quest for extraordinary destinations and unforgettable memories. <br><br>
+
+Our website serves as a comprehensive platform that caters to travelers of all kinds, whether you're a seasoned globetrotter or embarking on your first adventure. We have meticulously curated a vast repository of travel resources, insightful articles, and personalized recommendations to ensure that your journey with us is nothing short of extraordinary.
+<br><br>
+
+Planning your trip is made effortless with our intuitive search and booking tools. Whether you're in search of flights, accommodation, or guided tours, Trip Trove consolidates all the necessary information, ensuring a seamless and hassle-free booking experience. Rest assured, we only partner with reputable service providers to ensure your safety and satisfaction.
+<br><br>
+For those seeking a touch of inspiration, Trip Trove offers a treasure trove of captivating travel stories, stunning photography, and engaging videos. Immerse yourself in the narratives of intrepid explorers, get inspired by breathtaking vistas, and ignite your wanderlust for the next adventure on your bucket list.
+<br><br>
+The world is vast and diverse, and Trip Trove is here to be your trusted companion as you navigate its wonders. Whether you're seeking adrenaline-pumping adventures, tranquil escapes, cultural immersions, or soul-stirring encounters, This is your guide to unlocking the extraordinary.
+<br><br>
+Join us on this incredible journey, as we embark on an odyssey of discovery and create a global community of passionate travelers. Let Trip Trove be the compass that navigates you towards awe-inspiring destinations, remarkable experiences, and memories that will last a lifetime. Welcome to Trip Trove, where extraordinary journeys await!
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">        
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+</section>
+
+<!--Footer-->
+
+<section class="bg-dark text-light">
+<div class="container">
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="#" class="nav-link px-2 ">Home</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 ">Services</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 ">About us</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 ">Contact</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 ">Book</a></li>
+    </ul>
+    <p class="text-center ">&copy; 2023 Company, Inc</p>
+  </footer>
+</div>
+</section>
+  
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
